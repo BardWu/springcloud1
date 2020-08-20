@@ -7,6 +7,11 @@
   <groupId>com.wh</groupId>
   <artifactId>springcloud1</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <!--todo 具有的子module-->
+  <modules>
+    <module>springcloud1-api</module>
+    <module>springcloud1-provider-dept-8001</module>
+  </modules>
   <packaging>pom</packaging>
 
   <name>springcloud1</name>
@@ -79,6 +84,11 @@
         <version>${log4j.version}</version>
       </dependency>
 
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+      </dependency>
 
 
     </dependencies>
