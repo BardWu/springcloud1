@@ -20,8 +20,11 @@ import java.util.List;
 @RequestMapping("deptConsumer")
 public class DeptConsumer {
 
-    private static String DEPT_PROVIDER_URL = "http://localhost:8001";
-
+   /* private static String DEPT_PROVIDER_URL = "http://localhost:8001";*/
+    /**
+     * springcloud-dept(erueka server 服务名称):完成从eureka 中找到服务并访问
+     */
+    private static String DEPT_PROVIDER_URL = "http://springcloud-dept";
     @Autowired
     private RestTemplate restTemplate;
     @GetMapping("findAllDept")
