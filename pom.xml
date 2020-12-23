@@ -17,6 +17,9 @@
       <module>springcloud1-eureka-7004</module>
     <module>springcloud1-provider-dept-8003</module>
     <module>springcloud1-provider-dept-8004</module>
+      <module>springcloud1-consumer-dept-feign-8002</module>
+      <module>springcloud1-provider-dept-hystrix</module>
+    <module>springcloud1-provider-dept-hystrix-8001</module>
   </modules>
   <packaging>pom</packaging>
 
