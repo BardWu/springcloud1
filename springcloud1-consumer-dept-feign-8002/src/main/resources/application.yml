@@ -1,5 +1,8 @@
 server:
   port: 8002
+  compression:
+    enabled: false
+
 
 
 feign:
