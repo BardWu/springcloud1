@@ -19,3 +19,12 @@ info:
   company.name: www.atguigu.com
   build.artifactId: $artifactId$
   build.version: $project.version$
+
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-dept
+    mydept.path: /mydept/**
+  # 忽略的service
+  ignored-services: springcloud-dept
+  prefix: /wh
